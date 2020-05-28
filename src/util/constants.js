@@ -1,0 +1,5 @@
+export const HEROKU_OAUTH_ID = process.env.REACT_APP_HEROKU_OAUTH_ID;
+export const HEROKU_OAUTH_SECRET = process.env.REACT_APP_HEROKU_OAUTH_SECRET;
+export const LS_HEROKU_OAUTH_REQUEST_STATE = 'HEROKU_OAUTH_REQUEST_STATE';
+
+export const OAUTH_EXCHANGE_ENDPOINT = process.env.REACT_APP_OAUTH_EXCHANGE_ENDPOINT || 'http://localhost:8000/exchange';
