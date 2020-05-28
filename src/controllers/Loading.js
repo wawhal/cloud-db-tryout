@@ -45,6 +45,7 @@ const Loading = ({ sessionInfo, setDBUrl }) => {
     <div
       style={{marginTop: '20px'}}
     >
+      {error && (<div className="error-message">{error}</div>)}
       <Status
         status={creatingApp}
         label="Creating Heroku app"
